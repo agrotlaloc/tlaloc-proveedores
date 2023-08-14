@@ -1,0 +1,81 @@
+[debug] [2023-08-13T23:21:29.914Z] ----------------------------------------------------------------------
+[debug] [2023-08-13T23:21:30.063Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dbit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-13T23:21:30.065Z] CLI Version:   12.4.6
+[debug] [2023-08-13T23:21:30.067Z] Platform:      win32
+[debug] [2023-08-13T23:21:30.068Z] Node Version:  v19.7.0
+[debug] [2023-08-13T23:21:30.179Z] Time:          Sun Aug 13 2023 17:21:30 GMT-0600 (hora estándar central)
+[debug] [2023-08-13T23:21:30.179Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-13T23:21:31.072Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-13T23:21:31.076Z] > authorizing via signed-in user (agrotlaloc@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-08-13T23:21:31.176Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-13T23:21:31.177Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-13T23:21:31.181Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-08-13T23:21:31.268Z] [hub] writing locator at C:\Users\Dbit\AppData\Local\Temp\hub-tlaloc-proveedores.json
+[debug] [2023-08-13T23:21:31.379Z] > refreshing access token with scopes: []
+[debug] [2023-08-13T23:21:31.382Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-13T23:21:31.382Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-13T23:21:31.824Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-13T23:21:31.826Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-13T23:21:31.916Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores [none]
+[debug] [2023-08-13T23:21:32.218Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores 200
+[debug] [2023-08-13T23:21:32.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores {"projectId":"tlaloc-proveedores","projectNumber":"187394540769","displayName":"Tlaloc Proveedores","name":"projects/tlaloc-proveedores","resources":{"hostingSite":"tlaloc-proveedores"},"state":"ACTIVE","etag":"1_77989309-003f-4924-9b7a-53720516568b"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2023-08-13T23:23:46.684Z] [web frameworks] effective firebase.json:  {
+  "hosting": [
+    {
+      "source": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "frameworksBackend": {
+        "region": "us-central1"
+      },
+      "site": "tlaloc-proveedores",
+      "rewrites": [],
+      "redirects": [],
+      "headers": [],
+      "cleanUrls": true,
+      "public": "public",
+      "webFramework": "next"
+    }
+  ]
+}
+[debug] [2023-08-13T23:23:46.691Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tlaloc-proveedores/sites 
+[debug] [2023-08-13T23:23:47.260Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tlaloc-proveedores/sites 200
+[debug] [2023-08-13T23:23:47.260Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tlaloc-proveedores/sites {"sites":[{"name":"projects/tlaloc-proveedores/sites/tlaloc-proveedores","defaultUrl":"https://tlaloc-proveedores.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-08-13T23:23:47.262Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores/webApps/-/config [none]
+[debug] [2023-08-13T23:23:47.634Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores/webApps/-/config 200
+[debug] [2023-08-13T23:23:47.635Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tlaloc-proveedores/webApps/-/config {"projectId":"tlaloc-proveedores","storageBucket":"tlaloc-proveedores.appspot.com","apiKey":"AIzaSyAkriANqSH7RlM9rmU_3HmbYOUqMF656Qk","authDomain":"tlaloc-proveedores.firebaseapp.com","messagingSenderId":"187394540769"}
+[info] i  hosting[tlaloc-proveedores]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[tlaloc-proveedores]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [13/Aug/2023:23:26:39 +0000] "GET / HTTP/1.1" 500 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Aug/2023:23:26:39 +0000] \"GET / HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Aug/2023:23:27:12 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Aug/2023:23:27:12 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\""}}
