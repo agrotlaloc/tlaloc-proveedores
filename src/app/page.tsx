@@ -135,9 +135,9 @@ export default function Example() {
             Únete a Tláloc como proveedor y expande tu alcance a una amplia red de agricultores. Destaca tus productos agrícolas y accede a nuevas oportunidades de mercado.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-            <span aria-hidden="true">¿Listo para unirte?</span>
+            <span aria-hidden="false">¿Listo para unirte?</span>
               <a
-                href="#"
+                href="https://form.typeform.com/to/Q8eiyS4D"
                 className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
               >
                 Registrate
